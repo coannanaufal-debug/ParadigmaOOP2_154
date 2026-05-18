@@ -6,7 +6,15 @@ public:
 int umur;
 orang(int Pumur) 
     umur(Pumur)
-    { cout << "orang dibuat dengan umur " << umur << endl; }
+    { cout << "orang dibuat dengan umur " << umur <<  "\n" << endl; }
 };
 
+class pekerja : public orang {
+public:
+    pekerja(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "pekerja dibuat\n" << endl;
+    }
+};
 
