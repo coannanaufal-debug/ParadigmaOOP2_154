@@ -4,8 +4,8 @@ using namespace std;
 class orang {
 public:
 int umur;
-orang(int Pumur) 
-    umur(Pumur)
+orang(int Pumur)
+    : umur(Pumur)
     { cout << "orang dibuat dengan umur " << umur <<  "\n" << endl; }
 };
 
